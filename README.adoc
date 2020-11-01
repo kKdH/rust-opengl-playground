@@ -1,1 +1,10 @@
 = Rust OpenGL Playground =
+
+== Development ==
+
+=== Setup ===
+
+.Ubuntu
+----
+sudo apt install build-essential
+----

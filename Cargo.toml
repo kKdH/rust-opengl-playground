@@ -1,0 +1,14 @@
+[package]
+name = "rust-opengl-playground"
+version = "0.1.0"
+authors = ["Elmar Schug <elmar.schug@jayware.org>"]
+edition = "2018"
+
+[dependencies]
+sdl2 = { version = "0.34.3", features = ["bundled", "static-link"] }
+gl = "0.14.0"
+cgmath = "0.17.0"
+#gl = { path = "lib/gl" }
+
+[dev-dependencies]
+hamcrest2 = "0.3.0"
